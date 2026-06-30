@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Portaria - Reconhecimento Facial</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="AreaCamera">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>background-color: rgb(220, 220, 220); border: 1px solid black;</string>
+    </property>
+    <property name="text">
+     <string>Câmera Desligada</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Iniciar">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>520</y>
+      <width>130</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Abrir Câmera</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Parar">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>520</y>
+      <width>130</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fechar Câmera</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Btn_Cadastrar">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>520</y>
+      <width>130</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cadastrar Rosto</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LblStatus">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>580</y>
+      <width>640</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sistema Inativo</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
